@@ -1,7 +1,6 @@
-body, p, a{
-	font-family: 'Roboto', sans-serif;
+body{
+  font-family: "Lato";
 }
-
 .nav-text{
 	color: #085F63;
 	font-size: 18px;
@@ -27,6 +26,10 @@ body, p, a{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.btn-get:hover{
+  color: #FFFFFF;
+}
 .center {
   margin: auto;
   text-align: center;
@@ -50,10 +53,109 @@ h1.home{
 	color: #085F63;
 
 }
+@media only screen and (max-width: 600px) {
+  h1.home {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .head{
+    font-size: 24px !important;
+  }
+  .head5{
+    font-size: 24px !important;
+  }
+  .head.my-5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main{
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+  
+  .res{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    margin: 0px;
+  }
+  .marg{
+    margin-top: -310px!important;
+    margin-bottom: 45px!important;
+    padding: 20px;
+  }
+  .price li.header{
+    padding-left: 66px!important;
+  }
+  .price li{
+    padding: 5px 22px!important;
+  }
+  .price2 li.header{
+    padding-left: 66px!important;
+  }
+  .price2 li{
+    padding: 5px 22px!important;
+  }
+  .price3 li.header{
+    padding-left: 66px!important;
+  }
+  .price3 li{
+    padding: 5px 22px!important;
+  }
+  h1.twos{
+    font-size: 32px;
+  }
+  .col-md-3.col-6.my-4.pb-3{
+    margin-bottom: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  .fb {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 3px!important;
+}
+  .fh {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+  .line {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .row.p-5{
+    padding: 10px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sec{
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bd2{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;    
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container.pb-5{
+    padding-bottom: 0px !important;  
+  }
+}
+
 h5.small{
 	font-size: 16px;
 	color: #085F63;
-	margin-bottom: 25%;
+	margin-bottom: 15%;
     margin-top: 16px;
 }
 .pof{
@@ -93,7 +195,13 @@ h5.small{
 }
 .head{
 	color: #085F63;
-	font-size: 48px;
+  font-size: 48px;
+  margin-top: 35px!important;
+}
+.head5{
+	color: #085F63;
+  font-size: 48px;
+  margin-top: -35px!important;
 }
 .main{
 	border: 2px solid rgb(98 103 103 / 5%);
@@ -127,7 +235,7 @@ h5.small{
 }
 .bel{
   margin-bottom: 25%;
-  padding-bottom: 100%;
+  /* padding-bottom: 100%; */
 }
 .body2{
 	background-color: #FBFFFF;
@@ -149,7 +257,7 @@ h5.small{
 }
 .move3{
 	position: absolute;
-  	top: 40px;
+  	top: -60px;
     left: 65%;
     
 }
@@ -204,6 +312,11 @@ footer{
     font-size: 15px;
     font-weight: 400;
 }
+.thea{
+  color: #085F63;
+    font-size: 15px;
+    font-weight: 400;
+}
 /* .car{
     width: 31%;
     margin-left: 100px
@@ -224,7 +337,7 @@ footer{
     width: 100%;
     height: 345px !important;
     padding: 10px 14px;
-    border: 1px solid #053032;
+    border: 1px solid #bbbbbb;
 
 }
 .contain{
@@ -481,11 +594,63 @@ input:checked + .slider:before {
 .marg{
   position: relative;
   margin-top: -240px;
-  margin-bottom: 240px
+  margin-bottom: 130px
 }
 .we{
     position: absolute;
     bottom: -122px;
     left: -222px;
     z-index: -9;
+}
+
+.faq-head{  
+  font-size: 53px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.faq-sub{  
+  font-size: 20px;
+  font-weight: 800;
+  margin: auto;
+  color: #666666;
+}
+
+.faq1{
+  color: #053032;
+	font-size: 20px;
+}
+
+.faq2{  
+  font-size: 16px;
+  color: #686868;
+}
+
+.faq-accordion{
+  max-width: 75%;
+  margin: auto;
+}
+
+@media (max-width: 576px){
+  .faq-accordion{
+      max-width: fit-content;               
+  }
+  .rool{
+    width: 100%!important;
+  }
+  .form-control{
+    margin-bottom: 15px
+  }
+  .two{
+    font-size: 32px;
+  }
+  .the{
+    font-size: 14px;
+  }
+}
+.rool{
+  width: 75%;
+}
+.img-six{
+  width: 5vh;
 }

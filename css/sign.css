@@ -12,6 +12,14 @@ body{
 .call{
   position: relative;
 }
+@media only screen and (max-width: 600px){
+    .cor{
+        padding: 4% 0%!important;
+      }
+    .box2{
+        margin-right: 34px;
+    }
+}
 .move{
 	position: absolute;
     top: 26px;
