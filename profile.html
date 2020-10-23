@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Profile Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    </head>
+    <body>
+        <div class="container-fluid mt-2 mb-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div class="navbar-nav flex-column">
+                                <a href="#" class="nav-item brandLogo"><img width="80%" src="img/Logo.svg" alt="brandLogo"></a>
+                                <h5 class="mt-4 brandName">Hey, Makanaki</h5>
+                                <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active mt-md-5 pl-md-4 dashboardName" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"><i class="fa fa-home mr-2" aria-hidden="true"></i>Home</a>
+                                    <a class="nav-link dashboardName mt-md-4 pl-md-4" id="v-pills-airtime-tab" data-toggle="pill" href="#v-pills-airtime" role="tab" aria-controls="v-pills-airtime" aria-selected="false"><i class="fa fa-phone mr-2" aria-hidden="true"></i>Airtime</a>
+                                    <a class="nav-link dashboardName mt-md-4 pl-md-4" id="v-pills-data-tab" data-toggle="pill" href="#v-pills-data" role="tab" aria-controls="v-pills-data" aria-selected="false"><i class="fa fa-wifi mr-2" aria-hidden="true"></i>Data</a>
+                                    <a class="nav-link dashboardName mt-md-4 pl-md-4" id="v-pills-resellers-tab" data-toggle="pill" href="#v-pills-resellers" role="tab" aria-controls="v-pills-resellers" aria-selected="false"><i class="fa fa-user-circle-o mr-2" aria-hidden="true"></i>See resellers</a>
+                                    <a class="nav-link dashboardName mt-md-4 pl-md-4" id="v-pills-api-tab" data-toggle="pill" href="#v-pills-api" role="tab" aria-controls="v-pills-api" aria-selected="false"><i class="fa fa-file-text mr-2" aria-hidden="true"></i>API Docs</a>
+                                    <a class="nav-link dashboardName mt-md-4 pl-md-4" id="v-pills-history-tab" data-toggle="pill" href="#v-pills-history" role="tab" aria-controls="v-pills-history" aria-selected="false"><i class="fa fa-newspaper-o mr-2" aria-hidden="true"></i>History</a>
+                                </div>				
+                            </div>	
+                        </div>
+                    </nav>
+                </div>
+
+
+                <div class="col-md p-0">
+                    <div class="text-center mb-4">
+                        <span class="nav-item navbar-text accountName">PROFILE</span>
+                        <a href="#" class="nav-item float-md-right mt-1 mr-md-5"><img width="50" height="50" src="img/Group 5.svg" alt="userImg"></a>
+                    </div>
+                    <div class="tab-content col-md columnBoard p-md-5" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h3 class="headLineText">Profile</h3>
+                                </div>
+                            </div>
+                            <div class="media mt-md-5">
+                                <div class="media-left">
+                                    <img width="60%" src="img/avatar.svg" alt="avatar">
+                                </div>
+                                <div class="media-body">
+                                    <button class="btn btn-lg headLineBtn mt-2">Change Avatar</button>
+                                    <p><small class="avatarText">This profile image will show on your profile</small></p>
+                                </div>
+                            </div>
+                            <form>                                
+                                <div class="mt-md-3 mb-md-4">
+                                    <h5 class="gText">General Information</h5>
+                                </div>                        
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <fieldset class="p-2 formField">
+                                            <legend class="w-auto formTitle mb-0">Email</legend>
+                                            <input type="email" class="form-control formText p-0" placeholder="johnmicheal@anymail.com">
+                                        </fieldset>                                                           
+                                    </div>
+                                    <div class="col-md-4">
+                                        <fieldset class="p-2 formField">
+                                            <legend class="w-auto formTitle mb-0">Username</legend>
+                                            <input type="text" class="form-control formText p-0" placeholder="johnmicheal">
+                                        </fieldset>
+                                    </div> 
+                                </div>
+                                <div class="mt-5 mb-md-4">
+                                    <h5 class="gText">Change Password</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <fieldset class="p-2 formField">
+                                            <legend class="w-auto formTitle mb-0">Old Password</legend>
+                                            <input type="password" class="form-control formText p-0" placeholder="*****************************">
+                                        </fieldset>                                                           
+                                    </div>
+                                    <div class="col-md-4">
+                                        <fieldset class="p-2 formField">
+                                            <legend class="w-auto formTitle mb-0">New Password</legend>
+                                            <input type="password" class="form-control formText p-0" placeholder="*****************************">
+                                        </fieldset>
+                                    </div> 
+                                </div>                                
+                            </form>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/popper.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+    </body>
+</html>

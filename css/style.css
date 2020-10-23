@@ -1,0 +1,253 @@
+.brandName{
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+@media (max-width: 576px){
+    .brandLogo{
+        width: 50%;
+        margin-top: 20px;
+    }   
+} 
+
+.dashboardName{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFFFFF!important;
+    border-radius: 7px;
+}
+
+.dashboardName:hover{
+    background: #085F63;
+}
+
+.hdashboardName{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFFFFF!important;
+    border-radius: 7px;
+    background: #085F63;
+}
+
+.accountName{
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+@media (max-width: 576px){
+    .accountName{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-right: 60px;
+    }   
+} 
+
+.headLineText{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 33px;
+    color: #085F63;
+}
+
+@media (max-width: 576px){
+    .headLineText{
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }   
+} 
+
+.shareText{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 28px;
+    color: #085F63;
+}
+
+.headLineBtn{
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    background: #085F63;
+    color: #FFFFFF;
+}
+
+@media (max-width: 576px){
+    .headLineBtn{
+        margin-bottom: 15px;
+    }   
+} 
+
+.balance{
+    font-family: "Lato";
+    font-size: 12px;
+    color: #085F63;
+    font-weight: 500;
+}
+
+.amount{
+    font-family: "Lato";
+    color: #085F63;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.priceTag{
+    background: #FFFFFF;
+    border: 1px solid #E9E8E8;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px 1px rgba(5, 48, 50, 0.03);
+}
+
+.titleBoard{
+    font-family: "Lato";
+    font-size: 15px;
+    color: #085F63;
+    font-weight: 600;
+}
+
+.textBoard{
+    font-family: "Lato";
+    font-size: 14px;
+    color: #07CCDD;
+    font-weight: 500;
+    margin-right: 95px;
+}
+
+@media (max-width: 576px){
+    .textBoard{
+        margin-right: 10px;
+    }   
+} 
+
+.textBoard:hover{
+    text-decoration: none;
+    color:#07CCDD;
+}
+
+.tableText{
+    font-family: "Lato";
+    font-size: 14px;
+    text-align: center;
+}
+
+.tableTitle{
+    color: #95AAC9;
+    background: #F0F3F3;
+}
+
+.transactionBoard{
+    border-radius: 10px;
+    border: 1px solid #E9E8E8;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 15px 1px rgba(5, 48, 50, 0.03);
+}
+
+body{
+    background: #1D4244;
+    z-index: -5;
+}
+
+.columnBoard{
+    background: #FFFFFF;
+    border-top-left-radius: 60px;
+    height: 100%;
+}
+
+.avatarText{
+    color: #053032;
+    font-family: "Lato";
+    font-weight: 500;
+}
+
+.gText{
+    font-family: "Lato";
+    color: #053032;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.formField{
+    border: 2px solid #085F63;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.formTitle{
+    font-family: "Lato";
+    font-size: 18px;
+    color: #053032;
+    font-weight: 700;
+}
+
+.formText{
+    font-family: "Lato";
+    border: none;
+    margin-top: -8px;
+    color: #053032;
+}
+
+.networkText{
+    font-family: "Lato";
+    font-size: 18px;
+    color: #053032;
+    font-weight: 600;
+}
+
+.formNumber{
+    font-family: "Lato";
+    border: none;
+    color: #053032 !important;
+    margin-top: -8px;
+}
+
+.nairaNumber{
+    font-family: "Lato";
+    border: none;
+    color: #053032;
+    background: #FFFFFF;
+    font-size: 18px;
+    margin-top: -8px;
+}
+
+.sendBtn{
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    background: #053032;
+    color: #FFFFFF;
+}
+
+@media (max-width: 576px){
+    .imageOne{
+        width: 70px;
+        height: 70px;
+    }  
+} 
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid #005522;
+  }
+
