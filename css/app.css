@@ -288,10 +288,14 @@ footer{
 	background-color: #053032;
 }
 .fh{
-	color: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 17px;
+  margin-bottom: 34px;
+  font-weight: 900;
 }
 .fb{
-	color: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 .fit{
   max-width: 99%;
@@ -653,4 +657,15 @@ input:checked + .slider:before {
 }
 .img-six{
   width: 5vh;
+}
+
+
+.footerbanner{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
