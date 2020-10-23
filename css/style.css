@@ -158,7 +158,7 @@ body{
 .columnBoard{
     background: #FFFFFF;
     border-top-left-radius: 60px;
-    height: 100%;
+    height: 100vh;
 }
 
 .avatarText{
